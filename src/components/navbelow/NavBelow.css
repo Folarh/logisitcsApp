@@ -1,0 +1,22 @@
+.nav_below {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #baba;
+  padding: 10px;
+}
+
+.first_anime {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 35px;
+}
+
+@media all and (max-width: 768px) {
+  .nav_below {
+    display: none;
+  }
+}
