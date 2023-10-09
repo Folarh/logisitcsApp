@@ -1,0 +1,24 @@
+.rider {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.rider_left {
+  max-height: 300px;
+  border: 2px solid red;
+  padding: 30px;
+  position: absolute;
+  left: -20px;
+  /* right: -30px; */
+}
+
+.rider_image {
+  border: 2px solid green;
+}
+
+.rider_image img {
+  height: 400px;
+  min-width: 800px;
+}

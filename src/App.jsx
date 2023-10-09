@@ -2,6 +2,7 @@ import "./App.css";
 import GetItems from "./components/items/GetItems";
 import Navbar from "./components/navbar/Navbar";
 import NavBelow from "./components/navbelow/NavBelow";
+import Rider from "./components/rider/Rider";
 import Welcome from "./components/welcome/Welcome";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <NavBelow />
       <Welcome />
       <GetItems />
+      <Rider />
     </div>
   );
 }
